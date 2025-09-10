@@ -1,0 +1,9 @@
+# Python dependencies for Casino Robot Ubuntu deployment
+# Install with: pip3 install -r requirements.txt
+
+# Web framework (optional, for enhanced serving)
+flask==2.3.3
+gunicorn==21.2.0
+
+# Additional utilities
+python-dotenv==1.0.0

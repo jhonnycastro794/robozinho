@@ -1,0 +1,17 @@
+{
+  "name": "casino-robot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dev setup para o frontend do Casino Robot",
+  "scripts": {
+    "start": "live-server src --port=3000 --open=src/index.html",
+    "dev": "npm run start",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "live-server": "^1.2.2"
+  }
+}
